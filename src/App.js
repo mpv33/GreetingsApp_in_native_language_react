@@ -19,7 +19,7 @@ const App = () => {
     if(status){
       translateText()
     }
-  }, [nativeLang])
+  }, [status])
 
 
   const getIPAddress = () => {
